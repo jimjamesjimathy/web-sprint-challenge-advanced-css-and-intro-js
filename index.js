@@ -260,7 +260,6 @@ function get20s(array){
   }
   return returnNames;
 }
-console.log(get20s(artists));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 

@@ -23,19 +23,21 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. Question: How would you describe acessibility on the web to someone new to programming?
-    --Answer:
+    --Answer: Acessibility is a practice that involves making websites usable by as many people as possible. From the hearing/visually impared to slow network connections and mobile devices.
 
 2. Question: Talk about 3 different things you can do to ensure your website is accessible. 
-    --Answer:
+    --Answer: 1. Utilizing the "< meta name="viewport" content="width=device-width, initial-scale=1.0>" tag so that "@media" queries can be utilized for different screen sizes and devices.
+              2. Using semantic HTML correctly to organize the structure of your content.
+              3. Remembering to add the " alt="" " attribute to images.  
 
 3. Question: How would you explain the concept of a variable to someone new to programming?
-    --Answer: 
+    --Answer: Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves.
 
 4. Question: What is the purpose of using functions in code?
-    --Answer:
+    --Answer: Functions allow programmers to break down problems into smaller chunks. They also are a way to reuse code and not have to write the same thing over and over again.
 
 5. Question: How do you access a key inside of an object inside of an array?
-    --Answer: 
+    --Answer: First reference the name of the array followed by the index of the desired object in square brackets --- " e.g. arrayName[4] " this targets the desired array and desired object, and using the "." operator or "[]" bracket notation, we select the desired key name. Also, bracket notation must be used if the key name has spaces "key one" would look like array[4]["key one"].
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -71,7 +73,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 
 *Before you jump in, take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built. During this time, [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html) and basic styling in the [index.css file](css/index.css).*
 
-* [ ] Ensure your website is responsive at 500px such that your styles match the [mobile design file](design/Mobile.png).
+* [x] Ensure your website is responsive at 500px such that your styles match the [mobile design file](design/Mobile.png).
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
